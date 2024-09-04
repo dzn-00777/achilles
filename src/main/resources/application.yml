@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: achilles
+  datasource:
+    url: jdbc.mysql://localhost:3306/achilles_server
+    username: dzn
+    password: 156377
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: 156377
+server:
+  port: 80
+achilles:
+  relativeClassFilePath: C:\Users\28797\Desktop\dzn\classes
